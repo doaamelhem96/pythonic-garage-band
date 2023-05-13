@@ -1,6 +1,6 @@
 # Author: Dua'a Melhem 
 ## Description: 
-about using inhertancs in python 
+about using inhertianc in python 
 ## Installation:
 pytest 
 
