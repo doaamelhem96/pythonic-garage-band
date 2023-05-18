@@ -1,5 +1,5 @@
 import pytest
-from band import(
+from pythonic_.band import(
 Band, Musician, Guitarist, Bassist, Drummer)
 
 # @pytest.mark.skip("todo")
