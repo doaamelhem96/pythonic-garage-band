@@ -1,12 +1,7 @@
-
 import pytest
-from Band import(
-    Band,
-    Musician,
-    Guitarist,
-    Bassist,
-    Drummer,
-)
+from band import(
+Band, Musician, Guitarist, Bassist, Drummer)
+
 # @pytest.mark.skip("todo")
 def test_guitarist_str():
     joan = Guitarist("Joan Jett")
