@@ -111,6 +111,6 @@ class Band:
     Returns:
             list: A list containing all Band instances.
     """
-    @classmethod
+   
     def to_list(cls):
         return cls.instances
