@@ -1,8 +1,8 @@
-"""
-    A class representing a musician.
-"""
 class Musician:
     
+    """
+        A class representing a musician.
+    """
     def __init__(self, name):#Initializes a new Musician instance. Args:name (str): The name of the musician.
 
         self.name = name
@@ -29,8 +29,9 @@ class Musician:
          
 
 
-class Guitarist(Musician):#A class representing a guitarist, inheriting from the Musician class.
-    
+class Guitarist(Musician):
+    '''A class representing a guitarist, inheriting from the Musician class.
+    '''
 
     def get_instrument(self):#Gets the instrument played by the guitarist.
   
@@ -42,8 +43,10 @@ class Guitarist(Musician):#A class representing a guitarist, inheriting from the
 
 
 
-class Bassist(Musician):#  A class representing a bassist, inheriting from the Musician class.
-    
+class Bassist(Musician):
+    '''
+     A class representing a bassist, inheriting from the Musician class.
+    '''
 
     def get_instrument(self):#Gets the instrument played by the bassist.
     
@@ -55,8 +58,9 @@ class Bassist(Musician):#  A class representing a bassist, inheriting from the M
 
 
 
-class Drummer(Musician):# A class representing a drummer, inheriting from the Musician class.
-    
+class Drummer(Musician):
+    ''' A class representing a drummer, inheriting from the Musician class.
+    '''
 
     def get_instrument(self):#  Gets the instrument played by the drummer.
   
@@ -68,7 +72,10 @@ class Drummer(Musician):# A class representing a drummer, inheriting from the Mu
         return 'rattle boom crash'
 
 
-class Band: #A class representing a band.
+class Band: 
+    '''
+    A class representing a band.
+    '''
     
     instances = []
 
